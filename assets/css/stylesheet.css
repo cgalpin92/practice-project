@@ -29,3 +29,11 @@ footer {
     background-color: lightgray;
     color: black;
 }
+
+.apollo {
+    font-size: smaller;
+}
+
+.main-page-header {
+    text-align: center;
+}
