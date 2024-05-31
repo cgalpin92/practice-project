@@ -10,16 +10,21 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles*/
-    color: whitesmoke;
+    color: black;
 }
 
 header {
-    background-color: navy;
+    background-color: black;
     color: whitesmoke;
 }
 
+img {
+    height: 35%;
+    width: 35%;
+}
+
 main {
-    background-color: black;
+    background-color: darkgray;
     color: whitesmoke;
     /* Make main element take up any blank space to push the footer down*/
     flex: 1 0 auto;
@@ -36,4 +41,10 @@ footer {
 
 .main-page-header {
     text-align: center;
+}
+
+.main-body {
+    background-color: rgb(51, 51, 51);
+    color: whitesmoke;
+    flex: 1 0 auto;
 }
