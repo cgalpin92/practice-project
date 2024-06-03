@@ -1,0 +1,17 @@
+/* Body */
+body {
+    color: black;
+}
+/* Header */
+header {
+    background-color: lightblue;
+}
+/* Main Content */
+main {
+    background-color: whitesmoke;
+    flex: 1 0 auto;
+}
+/* Footer */
+footer {
+    background-color: red;
+}
