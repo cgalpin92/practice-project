@@ -1,14 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* Body */
 body {
-    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    background-color: #3a3a3a;
+    font-family: 'josefin-sans', sans-serif;
 }
 /* Header */
 header {
-    background-color: lightblue;
+    background-color: rgb(124, 156, 176);
+    padding: 1rem 2rem;
+    position: absolute;
+    width: 80%;
+    box-shadow: 0 2px 2px;
 }
+
+h1 {
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    text-transform: uppercase;
+    z-index: 99;
+    box-shadow: 0 2px 2px;
+}
+
+
 /* Main Content */
 main {
-    background-color: whitesmoke;
+    background-color: rgb(195, 195, 195);
     flex: 1 0 auto;
 }
 
